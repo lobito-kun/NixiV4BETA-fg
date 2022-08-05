@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+/*let handler = async m => m.reply(`
 
 ≡  *DyLux  ┃ ᴮᴼᵀ*   GRUPOS
 
@@ -17,4 +17,4 @@ handler.help = ['gpdylux']
 handler.tags = ['main']
 handler.command = ['grupos', 'groupdylux', 'dxgp', 'dygp', 'gpdylux'] 
 
-export default handler
+export default handler/*

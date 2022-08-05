@@ -34,11 +34,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'dylux-bot'
-global.author = '@fg98._'
-global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
+global.packname = 'NixiV4beta'
+global.author = 'NXv4'
+global.igfg = '\nV4\nbeta\n' 
+global.fgsc = 'https://github.com/lobito-kun/NixiV4BETA-fg' 
+global.fgyt = 'https://youtube.com'
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱▱*'
 

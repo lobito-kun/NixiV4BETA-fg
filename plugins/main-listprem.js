@@ -11,7 +11,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedP.length)
   
 await conn.sendButton(m.chat, `
-≡ *USUARIOS PREMIUM*
+≡ *USUARIOS PREMIUM NX*
 ${sortedP.slice(0, len).map(({ jid, name, premiumTime, registered }, i) => `\n┌─⊷ *EXPIRA EN*
 ▢ *Nombre:* ${registered ? name : conn.getName(jid)}
 ▢ wa.me/${jid.split`@`[0]}

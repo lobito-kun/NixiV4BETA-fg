@@ -2,7 +2,7 @@ let limit = 50
 import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `✳️ Ejemplo :\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`
+  if (!args || !args[0]) throw `✳️ Ejemplo :\n${usedPrefix + command} https://www.youtube.com/watch?v=sVx1mJDeUjY`
  //m.reply('*⌛ _Cargando..._ ▬▬▬▭*')
  let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
@@ -27,7 +27,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   }
   if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw '❎ Error: ' + (lastError || 'no puedo descargar el audio')
  
- m.reply(isLimit ? `≡ *FG MUSIC* 
+ m.reply(isLimit ? `≡ *NX MUSIC* 
   
 ▢ *📌Titulo:* ${title}
 ▢ *⚖️ Peso:* ${audio.fileSizeH}

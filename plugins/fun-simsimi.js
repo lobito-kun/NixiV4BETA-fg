@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 let handler = async (m, { text, usedPrefix, command }) => {
 	let name = conn.getName(m.sender)
-  if (!text) throw `Hola *${name}* Quieres charlar un rato? \nResponde con *${usedPrefix + command}* (tu mensaje) \n\n📌 Ejemplo : *${usedPrefix + command}* Hola bot`
+  if (!text) throw `Hola *${name}* Quieres charlar un rato? \nResponde con *${usedPrefix + command}* (tu mensaje) \n\n📌 Ejemplo : *${usedPrefix + command}* Hola Nixi`
   try {
   let res = await fetch(`https://api-sv2.simsimi.net/v2/?text=${text}&lc=es`)
   let json = await res.json()

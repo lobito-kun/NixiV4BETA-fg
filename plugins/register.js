@@ -11,7 +11,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
   if (name.length >= 30) throw '✳️ El nombre es demasiado largo' 
   age = parseInt(age)
   if (age > 100) throw '👴🏻 Wow el abuelo quiere jugar al bot'
-  if (age < 5) throw '🚼  hay un abuelo bebé jsjsj '
+  if (age < 5) throw '🚼  hay un mocoso jajaja '
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
